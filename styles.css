@@ -123,3 +123,27 @@ button {
     font-weight:lighter;
     color: darkslategray;
 }
+
+.quote-holder {
+    height: 425px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #E5E7EB;
+}
+
+.quote {
+    width: 800px;
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+    color: #1F2937;
+}
+
+.author {
+    width: 800px;
+    font-size: 24px;
+    font-weight: bolder;
+    text-align: right;
+}
