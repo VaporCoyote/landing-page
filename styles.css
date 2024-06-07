@@ -180,3 +180,13 @@ button {
     border-radius: 8px;
     border: 2px solid white;
 }
+
+.footer {
+    background-color: #1F2937;
+    height: 100px;
+    font-size: 18px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
