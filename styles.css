@@ -147,3 +147,36 @@ button {
     font-weight: bolder;
     text-align: right;
 }
+
+.call-holder {
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.call {
+    border-radius: 8px;
+    background-color: #3882F6;
+    height: 150px;
+    width: 1024px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.call-header {
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+}
+
+.call-text {
+    font-size: 18px;
+    color: white;
+}
+
+.call-button {
+    border-radius: 8px;
+    border: 2px solid white;
+}
