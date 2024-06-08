@@ -58,10 +58,10 @@ a {
     flex: 1;
 }
 
-.hero-right {
-    background-color: gray;
+.hero-right img{
+    height:250px;
+    width: 500px
 }
-
 .title {
     font-size: 48px;
     font-weight: bolder;
@@ -112,9 +112,14 @@ button {
 .image {
     width: 175px;
     height: 175px;
+    margin-bottom: 8px;
+}
+
+.image img{
+    width: 175px;
+    height: 175px;
     border-radius: 25px;
     border: 4px solid #3882F6;
-    margin-bottom: 8px;
 }
 
 .text {
